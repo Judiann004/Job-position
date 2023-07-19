@@ -1,3 +1,8 @@
 [user]
-	email = judiannpraise004gmail.com
-	name = Judiann004
+	email = judiannpraise004@gmail.com
+	name = Judiann
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
