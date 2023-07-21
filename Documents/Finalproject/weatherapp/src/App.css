@@ -1,0 +1,109 @@
+.weatherApp {
+  width: 100%;
+  height: 120vh;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 70px;
+  left: 180px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 730px) {
+
+
+  .popular {
+    margin-left: 20px;
+  }
+
+  .searchInput {
+    max-width: 70%;
+  }
+
+  .temp {
+    position: relative;
+    left: 10px;
+  }
+
+  .date {
+    width: 410px;
+    margin-left: -100px;
+  }
+
+.temperature {
+  width: 320px;
+  position: relative;
+  left: -70px;
+}
+
+.detail {
+  position: relative;
+  left: -30px;
+}
+
+.country {
+  position: relative;
+  left: -30px;
+  font-size: x-small;
+  width: 280px;
+}
+
+.project {
+  width: 600px;
+  margin-top: 20px;
+  color: #61dafb;
+  position: relative;
+  left: -470px;
+}
+
+.riseFall {
+  width: 510px;
+  position: relative;
+  left: -140px;
+  font-size: x-small;
+}
+
+.hour {
+  width: 360px;
+  position: relative;
+  left: -90px;
+}
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project {
+  width: 800px;
+  margin-top: 20px;
+  margin-left: 350px;
+}
